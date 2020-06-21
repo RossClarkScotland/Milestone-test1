@@ -1,3 +1,7 @@
+* {
+    margin: 0 auto;
+}
+
 html {
     background: url("https://pixabay.com/de/photos/edinburgh-calton-hill-landschaft-1541103/") no-repeat center center fixed;
     -webkit-background-size: cover;
