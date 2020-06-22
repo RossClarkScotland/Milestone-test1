@@ -8,6 +8,7 @@
 
 .navbar {
     text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
 }
 
 /********************************************/
@@ -18,6 +19,38 @@
   max-width: 100%;
   display: block;
   height: auto;
+}
+
+/*************Footer*******************/
+
+footer {
+    background-color: #3b3a3a;
+    color: #fafafa;
+    min-height: 90px;
+    margin: 0;
+}
+
+footer h5 {
+    text-align: left;
+    padding-top: 20px;
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+}
+
+/*****taken from resume mini-project*/
+.list-inline-item {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    background: #fafafa;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 
