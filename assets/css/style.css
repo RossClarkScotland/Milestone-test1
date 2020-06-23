@@ -9,6 +9,11 @@
 .navbar {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
+    background-color: #3b3a3a;
+}
+
+.navbar a {
+    color: #fafafa;
 }
 
 /********************************************/
@@ -37,7 +42,7 @@ footer h5 {
     text-transform: uppercase;
 }
 
-/*****taken from resume mini-project*/
+/*****Edited from resume mini-project*/
 .list-inline-item {
     width: 32px;
     height: 32px;
@@ -45,12 +50,16 @@ footer h5 {
     border-radius: 50%;
     font-size: 13px;
     line-height: 7px;
+    background-color: #fafafa;
     text-align: center;
-    background: #fafafa;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
+}
+
+footer a {
+    color: #3b3a3a;
 }
 
 
