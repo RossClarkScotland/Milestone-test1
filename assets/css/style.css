@@ -4,12 +4,19 @@
     border: 0;
 }
 
+.hero-image {
+ background-image: url("../images/arthursseat.jpg");
+ height: 100vh;
+ width: auto;
+}
+
 /*****************Navbar*********************/
 
 .navbar {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
     background-color: #3b3a3a;
+    min-height: 10px;
 }
 
 .navbar a {
@@ -20,19 +27,24 @@
 
 /*************Hero Image *******************/
 
+
+/*
 #hero-image {
-  max-width: 100%;
+  width: 100%;
   display: block;
   height: auto;
+  background-size: cover;
 }
+
+*/
 
 /*************Footer*******************/
 
 footer {
     background-color: #3b3a3a;
     color: #fafafa;
-    min-height: 90px;
     margin: 0;
+    min-height: 10px;
 }
 
 footer h5 {
